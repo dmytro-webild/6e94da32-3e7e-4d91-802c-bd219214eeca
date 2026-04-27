@@ -46,8 +46,9 @@ export default function LandingPage() {
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg", alt: "I Bang Records Logo" },
       ]}
-      avatarGroupClassName="aspect-[3/2] w-32"
-      buttons={[{ text: "Discover Artists", href: "#features" }]}
+      avatarGroupClassName="aspect-[16/9] w-full max-w-sm"
+      buttons={[{ text: "Discover Artists", href: "#features" }]
+      }
     />
   </div>
 
