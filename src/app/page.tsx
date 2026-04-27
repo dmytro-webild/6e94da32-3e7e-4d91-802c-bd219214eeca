@@ -52,7 +52,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       useInvertedBackground={false}
-      title="Defining Modern Urban Culture"
+      title="Defining the Music Industry in Ways Not Seen Before"
       tag="Our Mission"
     />
   </div>
