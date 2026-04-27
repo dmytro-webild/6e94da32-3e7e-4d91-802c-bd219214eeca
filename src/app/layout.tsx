@@ -6,6 +6,8 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Raleway } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 
 
 
@@ -19,9 +21,12 @@ export const metadata: Metadata = {
   },
 };
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+
+
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({
@@ -32,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${raleway.variable} antialiased`}>
+        <body className={`${interTight.variable} antialiased`}>
           
           {children}
           <script
