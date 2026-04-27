@@ -46,7 +46,7 @@ export default function LandingPage() {
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg", alt: "I Bang Records Logo" },
       ]}
-      buttons={[{ text: "Discover Artists", href: "#features" }]
+      buttons={[{ text: "Discover Artists", href: "#features" }]}
     />
   </div>
 
@@ -63,11 +63,11 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={true}
+      showStepNumbers={false}
       features={[
         { title: "Rap Legends", description: "Raw, unfiltered lyrical powerhouses.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/artist-posing-graffiti-wall_23-2149489847.jpg" } },
         { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=1" } },
       ]}
-      showStepNumbers={false}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene."
     />
