@@ -96,7 +96,7 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
       products={[
-        { id: "r1", name: "Midnight Pulse", price: "$15", imageSrc: "https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg" },
+        { id: "r1", name: "Midnight Pulse", price: "$15", imageSrc: "https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg?_wi=1" },
         { id: "r2", name: "Digital Dawn", price: "$15", imageSrc: "https://img.freepik.com/free-photo/urban-music-cover-art_23-2148496904.jpg" },
         { id: "r3", name: "Bass Frequency", price: "$15", imageSrc: "https://img.freepik.com/free-photo/urban-electronic-art_23-2150039319.jpg" },
         { id: "r4", name: "System Shock", price: "$15", imageSrc: "https://img.freepik.com/free-photo/urban-sound-wave-art_23-2148328066.jpg" },
@@ -172,7 +172,7 @@ export default function LandingPage() {
         { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }] },
         { title: "Links", items: [{ label: "Releases", href: "#products" }, { label: "Contact", href: "#contact" }] },
       ]}
-      imageSrc="https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg"
+      imageSrc="https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg?_wi=2"
     />
   </div>
       </ReactLenis>
