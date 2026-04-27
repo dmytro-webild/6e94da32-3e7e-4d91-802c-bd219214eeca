@@ -3,16 +3,12 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
-import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
-import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Globe, Headphones, Music, Waves, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -46,7 +42,7 @@ export default function LandingPage() {
       <HeroCentered
       background={{ variant: "radial-gradient" }}
       title="I Bang Records"
-      description="The ultimate urban label for Rap and R&B visionaries. Shaping the sound of the streets."
+      description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
       avatars={[
         { src: "https://img.freepik.com/free-photo/urban-artist-recording-music_23-2149417585.jpg", alt: "Rapper profile" },
         { src: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg", alt: "Artist profile" },
