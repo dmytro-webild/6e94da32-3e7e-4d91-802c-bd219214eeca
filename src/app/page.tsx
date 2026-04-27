@@ -54,7 +54,7 @@ export default function LandingPage() {
         { src: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg", alt: "urban musician portrait" },
         { src: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg", alt: "urban producer studio" },
       ]}
-      buttons={[{ text: "Listen Now", href: "#products" }]
+      buttons={[{ text: "Listen Now", href: "#products" }]}
       marqueeItems={[
         { type: "text-icon", text: "Techno Elite", icon: Music },
         { type: "text-icon", text: "Underground Vibes", icon: Zap },
