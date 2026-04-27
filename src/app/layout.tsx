@@ -6,6 +6,7 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Raleway } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 
 
 
@@ -19,8 +20,14 @@ export const metadata: Metadata = {
   },
 };
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -32,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${raleway.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
