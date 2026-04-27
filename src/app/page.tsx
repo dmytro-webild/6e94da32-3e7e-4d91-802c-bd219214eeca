@@ -2,10 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -155,22 +155,24 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCenter
+      <ContactSplit
       useInvertedBackground={true}
       background={{ variant: "sparkles-gradient" }}
       tag="Contact"
-      title="Join the Mailing List"
-      description="Stay updated on the latest releases and event news."
+      title="Get in Touch"
+      description="Connect with I Bang Records for demos, licensing, or general inquiries."
+      imageSrc="https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
-      columns={[
-        { items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }] },
-        { items: [{ label: "Releases", href: "#products" }, { label: "Contact", href: "#contact" }] },
-      ]}
+      <FooterMedia
       logoText="I Bang Records"
+      columns={[
+        { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }] },
+        { title: "Links", items: [{ label: "Releases", href: "#products" }, { label: "Contact", href: "#contact" }] },
+      ]}
+      imageSrc="https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg"
     />
   </div>
       </ReactLenis>
