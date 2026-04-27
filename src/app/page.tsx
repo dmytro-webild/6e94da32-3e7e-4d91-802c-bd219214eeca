@@ -140,12 +140,12 @@ export default function LandingPage() {
           title: "Techno Elite",
           description: "Global headlining acts.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/art-neon-fashion-men-s-portrait-handsome-guy-model-posing-outdoors-listening-music-headphones-red-green-filters-half-face_158538-4507.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/art-neon-fashion-men-s-portrait-handsome-guy-model-posing-outdoors-listening-music-headphones-red-green-filters-half-face_158538-4507.jpg?_wi=1",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/close-up-tattooed-young-man-holding-dry-plant-leaves-hand-standing-against-gray-background_23-2148121883.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/close-up-tattooed-young-man-holding-dry-plant-leaves-hand-standing-against-gray-background_23-2148121883.jpg?_wi=1",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/electric-guitar-with-neon-light_23-2151376107.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/electric-guitar-with-neon-light_23-2151376107.jpg?_wi=1",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -157,7 +157,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/close-up-face-make-up-woman-with-green-eyes_23-2148282165.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-musician-with-stylish-hair-elegant-clothes-with-guitar-his-hands-playing-posing-dark-background_613910-18283.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-musician-with-stylish-hair-elegant-clothes-with-guitar-his-hands-playing-posing-dark-background_613910-18283.jpg?_wi=1",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -169,7 +169,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-man-traditional-celtic-clothes-playing-mandolin-grey-vignette-background_613910-13774.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg?_wi=1",
           imageAlt: "professional musician artist portrait",
         },
       ]}
@@ -190,7 +190,7 @@ export default function LandingPage() {
           id: "r1",
           name: "Midnight Pulse",
           price: "$15",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg?_wi=2",
         },
         {
           id: "r2",
@@ -273,7 +273,7 @@ export default function LandingPage() {
           title: "Promoter",
           quote: "I Bang Records delivers consistently incredible sound.",
           avatarSrc: "http://img.b2bpic.net/free-photo/teenager-light-movie-projector_23-2149489847.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/electric-guitar-with-neon-light_23-2151376107.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/electric-guitar-with-neon-light_23-2151376107.jpg?_wi=2",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -283,7 +283,7 @@ export default function LandingPage() {
           title: "Radio Host",
           quote: "The roster is unmatched.",
           avatarSrc: "http://img.b2bpic.net/free-photo/man-posing-studio-high-angle_23-2149417590.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-musician-with-stylish-hair-elegant-clothes-with-guitar-his-hands-playing-posing-dark-background_613910-18283.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-musician-with-stylish-hair-elegant-clothes-with-guitar-his-hands-playing-posing-dark-background_613910-18283.jpg?_wi=2",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -293,7 +293,7 @@ export default function LandingPage() {
           title: "DJ",
           quote: "Pioneers of the industry.",
           avatarSrc: "http://img.b2bpic.net/free-photo/lifestyle-scary-clown_52683-120593.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-empty-menu-paper-plate-with-leaves_23-2148496904.jpg?_wi=3",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -303,7 +303,7 @@ export default function LandingPage() {
           title: "Producer",
           quote: "Production level is insane.",
           avatarSrc: "http://img.b2bpic.net/free-photo/high-angle-man-posing-studio_23-2149417589.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/art-neon-fashion-men-s-portrait-handsome-guy-model-posing-outdoors-listening-music-headphones-red-green-filters-half-face_158538-4507.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/art-neon-fashion-men-s-portrait-handsome-guy-model-posing-outdoors-listening-music-headphones-red-green-filters-half-face_158538-4507.jpg?_wi=2",
           imageAlt: "professional musician artist portrait",
         },
         {
@@ -313,7 +313,7 @@ export default function LandingPage() {
           title: "Curator",
           quote: "Absolutely essential label.",
           avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-young-man-posing-spotlight_23-2151916009.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-tattooed-young-man-holding-dry-plant-leaves-hand-standing-against-gray-background_23-2148121883.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-tattooed-young-man-holding-dry-plant-leaves-hand-standing-against-gray-background_23-2148121883.jpg?_wi=2",
           imageAlt: "professional musician artist portrait",
         },
       ]}
