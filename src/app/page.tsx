@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import HeroCentered from '@/components/sections/hero/HeroCentered';
+import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import TextAbout from '@/components/sections/about/TextAbout';
@@ -39,16 +39,13 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroCentered
+      <HeroSplit
       background={{ variant: "radial-gradient" }}
       title="I Bang Records"
       description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
-      avatars={[
-        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg", alt: "I Bang Records Logo" },
-      ]}
-      avatarGroupClassName="aspect-[16/9] w-full max-w-sm"
-      buttons={[{ text: "Discover Artists", href: "#features" }]
-      }
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg"
+      imagePosition="right"
+      buttons={[{ text: "Discover Artists", href: "#features" }]}
     />
   </div>
 
