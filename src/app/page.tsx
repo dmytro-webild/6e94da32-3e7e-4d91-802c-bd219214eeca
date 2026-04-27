@@ -52,7 +52,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       useInvertedBackground={false}
-      title="Defining the Music Industry in Ways Not Seen Before"
+      title="Define Music for the Future with sounds of the Past. Build a Family in Entertainment.  "
       tag="Our Mission"
     />
   </div>
@@ -65,7 +65,7 @@ export default function LandingPage() {
       showStepNumbers={false}
       features={[
         { title: "Rap Legends", description: "Raw, unfiltered lyrical powerhouses.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/artist-posing-graffiti-wall_23-2149489847.jpg" } },
-        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=1" } },
+        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777330442637-y85li8j7.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=1" } },
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene."
