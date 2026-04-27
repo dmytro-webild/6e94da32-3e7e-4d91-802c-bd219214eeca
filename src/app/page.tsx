@@ -71,7 +71,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         { title: "Rap Legends", description: "Raw, unfiltered lyrical powerhouses.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/artist-posing-graffiti-wall_23-2149489847.jpg" } },
-        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg" } },
+        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=1" } },
       ]}
       showStepNumbers={false}
       title="Our Artists"
@@ -101,7 +101,7 @@ export default function LandingPage() {
       tag="Contact Us"
       title="Join the Movement"
       description="Get in touch for booking, inquiries, or demo submissions."
-      imageSrc="https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg"
+      imageSrc="https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=2"
     />
   </div>
 
