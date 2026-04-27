@@ -44,11 +44,9 @@ export default function LandingPage() {
       title="I Bang Records"
       description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
       avatars={[
-        { src: "https://img.freepik.com/free-photo/urban-artist-recording-music_23-2149417585.jpg", alt: "Rapper profile" },
-        { src: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg", alt: "Artist profile" },
-        { src: "https://img.freepik.com/free-photo/portrait-young-urban-musician_23-2151916009.jpg", alt: "RnB artist" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg", alt: "I Bang Records Logo" },
       ]}
-      buttons={[{ text: "Discover Artists", href: "#features" }]}
+      buttons={[{ text: "Discover Artists", href: "#features" }]
     />
   </div>
 
