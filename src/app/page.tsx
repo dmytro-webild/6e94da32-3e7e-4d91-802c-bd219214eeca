@@ -9,6 +9,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FaqBase from '@/components/sections/faq/FaqBase';
+import EmailSignupForm from '@/components/form/EmailSignupForm';
 
 export default function LandingPage() {
   return (
@@ -74,17 +75,19 @@ export default function LandingPage() {
 
   <div id="contact-faq" data-section="contact-faq">
     <FaqBase
-        title="Contact FAQ"
-        description="Have specific questions regarding our contact process or business inquiries? Find answers here."
-        faqs={[
-            { id: "1", title: "What information should I include in my email?", content: "Please include your name, artist profile, genre, and a brief description of your inquiry." },
-            { id: "2", title: "How long will it take to hear back?", content: "We typically review inquiries within 5-7 business days." },
-            { id: "3", title: "Is there a specific format for demo submissions?", content: "Yes, please send only private SoundCloud links; attachments may not be opened." }
-        ]}
+        title="Support Inquiries"
+        description="Have a business inquiry? Send us a message and we'll get back to you."
+        faqs={[]}
         faqsAnimation="slide-up"
         textboxLayout="default"
         useInvertedBackground={true}
-    />
+    >
+        <EmailSignupForm 
+            inputPlaceholder="Enter your message or email..."
+            buttonText="Send to Support"
+            onSubmit={(email) => { window.location.href = `mailto:support@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
+        />
+    </FaqBase>
   </div>
 
   <div id="contact" data-section="contact">
