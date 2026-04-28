@@ -7,7 +7,6 @@ import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
@@ -31,7 +30,6 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "About", id: "about" },
         { name: "Artists", id: "features" },
-        { name: "Releases", id: "products" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="I Bang Records"
@@ -69,21 +67,6 @@ export default function LandingPage() {
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene."
-    />
-  </div>
-
-  <div id="products" data-section="products">
-      <ProductCardThree
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
-      products={[
-        { id: "r1", name: "City Lights", price: "Stream", imageSrc: "https://img.freepik.com/free-photo/urban-music-cover-art_23-2148496904.jpg" },
-        { id: "r2", name: "Concrete Soul", price: "Stream", imageSrc: "https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg" },
-      ]}
-      title="Artist Catalog"
-      description="Explore the latest drops from our roster."
     />
   </div>
 
