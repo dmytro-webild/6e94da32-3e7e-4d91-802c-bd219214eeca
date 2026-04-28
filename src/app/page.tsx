@@ -85,7 +85,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        { id: "1", title: "How do I submit my demo?", content: "You can reach out via our contact section or send us an email directly to marcelawilliams@ibangrecords.com." },
+        { id: "1", title: "How do I submit my demo?", content: "You can reach out via our contact section or you can reach out to us on any of our social media platforms. " },
         { id: "2", title: "What genres do you represent?", content: "We represent all genres, including Hip Hop, R&B, Rock, Country, K-Pop, and more." },
         { id: "3", title: "Can I book an artist?", content: "Yes, please send your booking inquiry through the contact form or our support email." }
       ]}
