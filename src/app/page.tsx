@@ -64,8 +64,8 @@ export default function LandingPage() {
       useInvertedBackground={true}
       showStepNumbers={false}
       features={[
-        { title: "Rap Legends", description: "Raw, unfiltered lyrical powerhouses.", phoneOne: { imageSrc: "https://img.freepik.com/free-photo/cool-urban-rapper-portrait_23-2149417590.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/artist-posing-graffiti-wall_23-2149489847.jpg" } },
-        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777330442637-y85li8j7.jpg" }, phoneTwo: { imageSrc: "https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=1" } },
+        { title: "Rap Legends", description: "Raw, unfiltered lyrical powerhouses.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365027886-q4uam6x8.jpg" } },
+        { title: "R&B Soul", description: "Deep, melodic vibes for the modern era.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg" } },
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene."
@@ -93,8 +93,8 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       tag="Contact Us"
       title="Join the Movement"
-      description="Get in touch for booking, inquiries, or demo submissions. To configure your Zoho Mail account with your website domain, log in to your Zoho Mail Admin Console, navigate to 'Domains', and add your domain. You will need to verify domain ownership via TXT/CNAME records in your DNS management provider's control panel, then update your MX records to point to Zoho's servers."
-      imageSrc="https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=2"
+      description="Get in touch for booking, inquiries, or demo submissions. "
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
     />
   </div>
 
