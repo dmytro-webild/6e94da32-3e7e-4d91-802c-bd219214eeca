@@ -106,14 +106,14 @@ export default function LandingPage() {
     <FooterMedia
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg?_wi=2"
       logoText="I Bang Records"
+      className="bg-[var(--accent)]"
       columns={[
         { title: "Socials", items: [
             { label: "Facebook", href: "https://facebook.com" },
             { label: "Twitter", href: "https://twitter.com" },
             { label: "Instagram", href: "https://instagram.com" },
             { label: "TikTok", href: "https://tiktok.com" }
-        ] },
-        { title: "Support", items: [{ label: "Contact Support", href: "#support" }] }
+        ] }
       ]}
     />
   </div>
