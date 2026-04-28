@@ -47,6 +47,7 @@ export default function LandingPage() {
       imagePosition="right"
       imageClassName="border-none"
       buttons={[{ text: "Our Artists", href: "#features" }]}
+      mediaAnimation="none"
     />
   </div>
 
@@ -65,8 +66,8 @@ export default function LandingPage() {
       useInvertedBackground={true}
       showStepNumbers={false}
       features={[
-        { title: "King Art                                          Southside Shade ", description: "", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365027886-q4uam6x8.jpg" } },
-        { title: "Royal Business                                                                                               Mikey 3ang ", description: "", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg" } },
+        { title: "King Art Southside Shade", description: "", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365027886-q4uam6x8.jpg" } },
+        { title: "Royal Business Mikey 3ang", description: "", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg" } },
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene. We welcome all Genres. Country - Rap/Hip-Hop - Gospel - Rock - Latin - Latin Trap - Trap - R & B - K-Pop"
@@ -81,23 +82,23 @@ export default function LandingPage() {
         faqsAnimation="slide-up"
         textboxLayout="default"
         useInvertedBackground={true}
-    >
-        <EmailSignupForm 
-            inputPlaceholder="Enter your message or email..."
-            buttonText="Send to Support"
-            onSubmit={(email) => { window.location.href = `mailto:support@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
-        />
-    </FaqBase>
+    />
+    <EmailSignupForm 
+        inputPlaceholder="Enter your message or email..."
+        buttonText="Send to Support"
+        onSubmit={(email) => { window.location.href = `mailto:support@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
+    />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactSplit
-      useInvertedBackground={true}
-      background={{ variant: "gradient-bars" }}
       tag="Contact Us"
       title="Join the Family"
       description="Get in touch for booking, inquiries, or demo submissions. "
+      useInvertedBackground={true}
+      background={{ variant: "gradient-bars" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
+      mediaAnimation="none"
     />
   </div>
 
