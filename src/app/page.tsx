@@ -88,6 +88,7 @@ export default function LandingPage() {
   <div id="support" data-section="support">
     <ContactText
       text="Need assistance? Reach out to our support team for any inquiries."
+      useInvertedBackground={false}
       background={{ variant: "plain" }}
       buttons={[
         {
