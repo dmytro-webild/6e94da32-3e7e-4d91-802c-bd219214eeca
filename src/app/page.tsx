@@ -108,7 +108,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{ variant: "gradient-bars" }}
       tag="Contact Us"
-      title="Join the Movement"
+      title="Join the Family"
       description="Get in touch for booking, inquiries, or demo submissions. "
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
     />
