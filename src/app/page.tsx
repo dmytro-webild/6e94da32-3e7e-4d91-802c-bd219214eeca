@@ -96,9 +96,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Recording", description: "Professional studio recording sessions", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416050413-dklcfatd.jpg" },
-        { title: "Mixing", description: "High-quality audio engineering and mixing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416160895-6vu5l7df.jpg" },
-        { title: "Mastering", description: "Finalizing tracks for industry standards", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416187294-q15x9tvh.jpg" }
+        { title: "Recording - Professional Quality", description: "Professional studio recording sessions", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416050413-dklcfatd.jpg" },
+        { title: "Mixing - Precision Audio", description: "High-quality audio engineering and mixing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416160895-6vu5l7df.jpg" },
+        { title: "Mastering - Industry Standards", description: "Finalizing tracks for industry standards", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416187294-q15x9tvh.jpg" }
       ]}
     />
   </div>
