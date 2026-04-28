@@ -45,6 +45,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg"
       imagePosition="right"
       imageClassName="border-none"
+      buttons={[{ text: "Our Artists", href: "#features" }]}
     />
   </div>
 
