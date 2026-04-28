@@ -74,6 +74,18 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="contact" data-section="contact">
+      <ContactSplit
+      tag="Contact Us"
+      title="Join the Family"
+      description="Get in touch for booking, inquiries, or demo submissions. "
+      useInvertedBackground={true}
+      background={{ variant: "gradient-bars" }}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=1"
+      mediaAnimation="none"
+    />
+  </div>
+
   <div id="contact-faq" data-section="contact-faq">
     <FaqBase
         title="Support Inquiries"
@@ -87,18 +99,6 @@ export default function LandingPage() {
         inputPlaceholder="Enter your message or email..."
         buttonText="Send to Support"
         onSubmit={(email) => { window.location.href = `mailto:marcelawilliams@ibangrecords.com,eddiebang@ibangrecords.com,mikey3ang@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
-    />
-  </div>
-
-  <div id="contact" data-section="contact">
-      <ContactSplit
-      tag="Contact Us"
-      title="Join the Family"
-      description="Get in touch for booking, inquiries, or demo submissions. "
-      useInvertedBackground={true}
-      background={{ variant: "gradient-bars" }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=1"
-      mediaAnimation="none"
     />
   </div>
 
