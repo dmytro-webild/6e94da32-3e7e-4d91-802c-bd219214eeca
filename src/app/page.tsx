@@ -9,6 +9,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
+import FaqBase from '@/components/sections/faq/FaqBase';
 
 export default function LandingPage() {
   return (
@@ -84,6 +85,21 @@ export default function LandingPage() {
       faqsAnimation="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
+    />
+  </div>
+
+  <div id="contact-faq" data-section="contact-faq">
+    <FaqBase
+        title="Contact FAQ"
+        description="Have specific questions regarding our contact process or business inquiries? Find answers here."
+        faqs={[
+            { id: "1", title: "What information should I include in my email?", content: "Please include your name, artist profile, genre, and a brief description of your inquiry." },
+            { id: "2", title: "How long will it take to hear back?", content: "We typically review inquiries within 5-7 business days." },
+            { id: "3", title: "Is there a specific format for demo submissions?", content: "Yes, please send only private SoundCloud links; attachments may not be opened." }
+        ]}
+        faqsAnimation="slide-up"
+        textboxLayout="default"
+        useInvertedBackground={true}
     />
   </div>
 
