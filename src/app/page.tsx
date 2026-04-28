@@ -89,16 +89,16 @@ export default function LandingPage() {
 
   <div id="feature-card-three" data-section="feature-card-three">
     <FeatureCardThree
-      title="Meet Our Artist / Music Production"
+      title=" Music Production"
       description="We handle full-scale music production and career management for our artists with specialized focus on quality output."
       animationType="slide-up"
       gridVariant="three-columns-all-equal-width"
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Recording - Professional Quality", description: "Professional studio recording sessions for crystal clear vocals.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416050413-dklcfatd.jpg" },
-        { title: "Mixing - Precision Audio", description: "High-quality audio engineering and mixing to balance your sound.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416160895-6vu5l7df.jpg" },
-        { title: "Mastering - Industry Standards", description: "Finalizing tracks for industry standards and global distribution.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416187294-q15x9tvh.jpg" }
+        { title: "Meet Paulskiiizbeats Producer with mad skills on Beat Making and Engineering                         Recording - Professional Quality", description: "Professional studio recording sessions for crystal clear vocals.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416050413-dklcfatd.jpg" },
+        { title: "Meet Southside Shade The Producer, The Artist and Skilled Beat Maker                                             Mixing - Precision Audio", description: "High-quality audio engineering and mixing to balance your sound.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416160895-6vu5l7df.jpg" },
+        { title: "Meet DevantMastering - Industry Standards", description: "Finalizing tracks for industry standards and global distribution.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416187294-q15x9tvh.jpg" }
       ]}
     />
   </div>
