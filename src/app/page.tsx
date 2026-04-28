@@ -9,6 +9,7 @@ import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatin
 import TextAbout from '@/components/sections/about/TextAbout';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FaqBase from '@/components/sections/faq/FaqBase';
 
 export default function LandingPage() {
   return (
@@ -31,6 +32,7 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "About", id: "about" },
         { name: "Artists", id: "features" },
+        { name: "FAQ", id: "faq" },
         { name: "Contact", id: "contact" },
         { name: "Support", id: "support" },
       ]}
@@ -72,6 +74,21 @@ export default function LandingPage() {
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene. We welcome all Genres. Country - Rap/Hip-Hop - Gospel - Rock - Latin - Latin Trap - Trap - R & B - K-Pop"
+    />
+  </div>
+
+  <div id="faq" data-section="faq">
+    <FaqBase
+      title="Frequently Asked Questions"
+      description="Got questions about our process or joining the family? We're here to help."
+      faqsAnimation="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={false}
+      faqs={[
+        { id: "1", title: "How do I submit my demo?", content: "You can reach out via our contact section or send us an email directly to marcelawilliams@ibangrecords.com." },
+        { id: "2", title: "What genres do you represent?", content: "We represent all genres, including Hip Hop, R&B, Rock, Country, K-Pop, and more." },
+        { id: "3", title: "Can I book an artist?", content: "Yes, please send your booking inquiry through the contact form or our support email." }
+      ]}
     />
   </div>
 
