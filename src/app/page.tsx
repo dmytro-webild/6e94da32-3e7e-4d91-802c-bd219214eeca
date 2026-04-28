@@ -7,6 +7,7 @@ import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
+import ContactText from '@/components/sections/contact/ContactText';
 
 export default function LandingPage() {
   return (
@@ -30,6 +31,7 @@ export default function LandingPage() {
         { name: "About", id: "about" },
         { name: "Artists", id: "features" },
         { name: "Contact", id: "contact" },
+        { name: "Support", id: "support" },
       ]}
       brandName="I Bang Records"
     />
@@ -42,7 +44,8 @@ export default function LandingPage() {
       description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
       imagePosition="right"
       imageClassName="border-none"
-      buttons={[{ text: "Our Artists", href: "#features" }]}
+      buttons={[{ text: "Our Artists", href: "#features" }]
+      }
       mediaAnimation="none"
     />
   </div>
@@ -79,6 +82,20 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=1"
       mediaAnimation="none"
+    />
+  </div>
+
+  <div id="support" data-section="support">
+    <ContactText
+      text="Need assistance? Reach out to our support team for any inquiries."
+      background={{ variant: "plain" }}
+      buttons={[
+        {
+          text: "Send Message",          onClick: () => {
+            window.location.href = "mailto:marcelawilliams@ibangrecords.com?cc=mikey3ang@ibangrecords.com,eddiebang@ibangrecords.com";
+          }
+        }
+      ]}
     />
   </div>
       </ReactLenis>
