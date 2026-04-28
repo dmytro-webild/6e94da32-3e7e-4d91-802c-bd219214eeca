@@ -52,7 +52,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       useInvertedBackground={false}
-      title="Define Music for the Future with sounds of the Past. Build a Family in Entertainment.  "
+      title="Define Music for the Future with sounds of the Past. Build a Family in Entertainment."
       tag="Our Mission"
     />
   </div>
@@ -93,7 +93,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       tag="Contact Us"
       title="Join the Movement"
-      description="Get in touch for booking, inquiries, or demo submissions."
+      description="Get in touch for booking, inquiries, or demo submissions. To configure your Zoho Mail account with your website domain, log in to your Zoho Mail Admin Console, navigate to 'Domains', and add your domain. You will need to verify domain ownership via TXT/CNAME records in your DNS management provider's control panel, then update your MX records to point to Zoho's servers."
       imageSrc="https://img.freepik.com/free-photo/urban-music-producer-studio_23-2149005458.jpg?_wi=2"
     />
   </div>
