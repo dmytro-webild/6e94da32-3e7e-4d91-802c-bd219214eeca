@@ -8,7 +8,6 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FaqBase from '@/components/sections/faq/FaqBase';
 
 export default function LandingPage() {
@@ -32,7 +31,6 @@ export default function LandingPage() {
         { name: "Home", id: "hero" },
         { name: "About", id: "about" },
         { name: "Artists", id: "features" },
-        { name: "FAQ", id: "faq" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="I Bang Records"
@@ -73,22 +71,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="faq" data-section="faq">
-    <FaqSplitMedia
-      title="Frequently Asked Questions"
-      description="Got questions about our process, booking, or label services? We've got answers."
-      faqs={[
-        { id: "1", title: "How can I submit my demo?", content: "You can submit your demos through our contact page or by sending a private Soundcloud link via our official email." },
-        { id: "2", title: "What genres do you specialize in?", content: "While we love all music, our core focus is on Hip Hop, Rap, and R&B."},
-        { id: "3", title: "How do you support new artists?", content: "We provide comprehensive artist development, from production guidance to marketing and distribution strategy." }
-      ]}
-      faqsAnimation="slide-up"
-      textboxLayout="split"
-      useInvertedBackground={false}
-      showCard={false}
-    />
-  </div>
-
   <div id="contact-faq" data-section="contact-faq">
     <FaqBase
         title="Contact FAQ"
@@ -119,7 +101,7 @@ export default function LandingPage() {
       <FooterMedia
       logoText="I Bang Records"
       columns={[
-        { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }, { label: "FAQ", href: "#faq" }] },
+        { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }] },
         { title: "Contact", items: [{ label: "Support", href: "#contact" }] },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777368505901-018ujma6.jpg"
