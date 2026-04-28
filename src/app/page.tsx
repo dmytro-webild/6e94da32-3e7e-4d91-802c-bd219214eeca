@@ -125,7 +125,7 @@ export default function LandingPage() {
       className="bg-black"
       columns={[
         { title: "Socials", items: [
-            { label: "Facebook", href: "https://facebook.com" },
+            { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589022357123" },
             { label: "X", href: "https://twitter.com" },
             { label: "Instagram", href: "https://instagram.com" },
             { label: "TikTok", href: "https://tiktok.com" }
