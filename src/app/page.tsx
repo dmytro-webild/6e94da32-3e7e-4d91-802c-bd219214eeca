@@ -85,6 +85,7 @@ export default function LandingPage() {
       faqsAnimation="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
+      showCard={false}
     />
   </div>
 
