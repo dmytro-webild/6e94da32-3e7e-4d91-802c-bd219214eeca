@@ -49,7 +49,6 @@ export default function LandingPage() {
       imageClassName="border-none"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg?_wi=1"
       imageAlt="I Bang Records Team"
-      buttons={[{ text: "Our Artists", href: "#features" }]}
       mediaAnimation="none"
     />
   </div>
