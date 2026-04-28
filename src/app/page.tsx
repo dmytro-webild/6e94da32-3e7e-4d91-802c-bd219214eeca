@@ -8,7 +8,6 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
-import FaqBase from '@/components/sections/faq/FaqBase';
 import EmailSignupForm from '@/components/form/EmailSignupForm';
 
 export default function LandingPage() {
@@ -82,22 +81,6 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=1"
       mediaAnimation="none"
-    />
-  </div>
-
-  <div id="contact-faq" data-section="contact-faq">
-    <FaqBase
-        title="Support Inquiries"
-        description="Have a business inquiry? Send us a message and we'll get back to you."
-        faqs={[]}
-        faqsAnimation="slide-up"
-        textboxLayout="default"
-        useInvertedBackground={true}
-    />
-    <EmailSignupForm 
-        inputPlaceholder="Enter your message or email..."
-        buttonText="Send to Support"
-        onSubmit={(email) => { window.location.href = `mailto:marcelawilliams@ibangrecords.com,eddiebang@ibangrecords.com,mikey3ang@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
     />
   </div>
 
