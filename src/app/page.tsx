@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroSplit
       background={{ variant: "radial-gradient" }}
       title="I Bang Records"
-      description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
+      description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways. Welcome to the family where music meets destiny."
       imagePosition="right"
       imageClassName="border-none"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg?_wi=1"
