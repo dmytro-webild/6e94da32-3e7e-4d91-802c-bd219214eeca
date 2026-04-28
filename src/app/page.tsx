@@ -43,7 +43,6 @@ export default function LandingPage() {
       background={{ variant: "radial-gradient" }}
       title="I Bang Records"
       description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777323889174-0kwrky4p.jpg"
       imagePosition="right"
       imageClassName="border-none"
       buttons={[{ text: "Our Artists", href: "#features" }]}
