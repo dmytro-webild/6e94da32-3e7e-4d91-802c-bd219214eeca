@@ -105,7 +105,7 @@ export default function LandingPage() {
         { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }, { label: "FAQ", href: "#faq" }] },
         { title: "Contact", items: [{ label: "Support", href: "#contact" }] },
       ]}
-      imageSrc="https://img.freepik.com/free-photo/urban-vinyl-release_23-2149075974.jpg?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777368505901-018ujma6.jpg"
     />
   </div>
       </ReactLenis>
