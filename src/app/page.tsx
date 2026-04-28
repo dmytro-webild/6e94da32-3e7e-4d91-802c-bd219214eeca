@@ -126,9 +126,7 @@ export default function LandingPage() {
       columns={[
         { title: "Socials", items: [
             { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61589022357123" },
-            { label: "X", href: "https://twitter.com" },
-            { label: "Instagram", href: "https://www.instagram.com/ibangrecords" },
-            { label: "TikTok", href: "https://tiktok.com" }
+            { label: "Instagram", href: "https://www.instagram.com/ibangrecords" }
         ] }
       ]}
     />
