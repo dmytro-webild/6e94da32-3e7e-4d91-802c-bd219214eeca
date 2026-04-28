@@ -83,6 +83,7 @@ export default function LandingPage() {
       ]}
       faqsAnimation="slide-up"
       textboxLayout="split"
+      useInvertedBackground={false}
     />
   </div>
 
