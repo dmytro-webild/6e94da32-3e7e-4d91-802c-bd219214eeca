@@ -110,7 +110,7 @@ export default function LandingPage() {
       columns={[
         { title: "Socials", items: [
             { label: "Facebook", href: "https://facebook.com" },
-            { label: "Twitter", href: "https://twitter.com" },
+            { label: "X", href: "https://twitter.com" },
             { label: "Instagram", href: "https://instagram.com" },
             { label: "TikTok", href: "https://tiktok.com" }
         ] }
