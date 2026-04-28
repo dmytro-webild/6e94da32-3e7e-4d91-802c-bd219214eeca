@@ -101,7 +101,7 @@ export default function LandingPage() {
       <FooterMedia
       logoText="I Bang Records"
       columns={[
-        { title: "Navigation", items: [{ label: "About", href: "#about" }, { label: "Artists", href: "#features" }] },
+        { title: "Navigation", items: [{ label: "About", href: "#hero" }, { label: "Artists", href: "#features" }] },
         { title: "Contact", items: [{ label: "Support", href: "#contact" }] },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777368505901-018ujma6.jpg"
