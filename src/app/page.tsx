@@ -97,7 +97,7 @@ export default function LandingPage() {
       description="Get in touch for booking, inquiries, or demo submissions. "
       useInvertedBackground={true}
       background={{ variant: "gradient-bars" }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=1"
       mediaAnimation="none"
     />
   </div>
@@ -109,7 +109,7 @@ export default function LandingPage() {
         { title: "Navigation", items: [{ label: "About", href: "#hero" }, { label: "Artists", href: "#features" }] },
         { title: "Contact", items: [{ label: "Support", href: "mailto:marcelawilliams@ibangrecords.com,eddiebang@ibangrecords.com,mikey3ang@ibangrecords.com" }] },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg?_wi=2"
     />
   </div>
       </ReactLenis>
