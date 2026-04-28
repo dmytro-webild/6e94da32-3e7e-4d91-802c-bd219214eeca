@@ -86,7 +86,7 @@ export default function LandingPage() {
     <EmailSignupForm 
         inputPlaceholder="Enter your message or email..."
         buttonText="Send to Support"
-        onSubmit={(email) => { window.location.href = `mailto:marcelawilliams@ibangrecords.com,mikey3ang@ibangrecords.com,eddiebang@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
+        onSubmit={(email) => { window.location.href = `mailto:marcelawilliams@ibangrecords.com,eddiebang@ibangrecords.com,mikey3ang@ibangrecords.com?subject=Support Inquiry&body=${encodeURIComponent(email)}`; }}
     />
   </div>
 
@@ -107,9 +107,9 @@ export default function LandingPage() {
       logoText="I Bang Records"
       columns={[
         { title: "Navigation", items: [{ label: "About", href: "#hero" }, { label: "Artists", href: "#features" }] },
-        { title: "Contact", items: [{ label: "Support", href: "mailto:marcelawilliams@ibangrecords.com,mikey3ang@ibangrecords.com,eddiebang@ibangrecords.com" }] },
+        { title: "Contact", items: [{ label: "Support", href: "mailto:marcelawilliams@ibangrecords.com,eddiebang@ibangrecords.com,mikey3ang@ibangrecords.com" }] },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777368505901-018ujma6.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365377115-6w0jl634.jpg"
     />
   </div>
       </ReactLenis>
