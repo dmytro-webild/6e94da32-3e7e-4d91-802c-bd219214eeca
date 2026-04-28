@@ -10,6 +10,7 @@ import TextAbout from '@/components/sections/about/TextAbout';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import FaqBase from '@/components/sections/faq/FaqBase';
+import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 
 export default function LandingPage() {
   return (
@@ -73,6 +74,20 @@ export default function LandingPage() {
       ]}
       title="Our Artists"
       description="We house the most influential Rap and R&B voices in the scene. We welcome all Genres. Country - Rap/Hip-Hop - Gospel - Rock - Latin - Latin Trap - Trap - R & B - K-Pop"
+    />
+  </div>
+
+  <div id="feature-card-three" data-section="feature-card-three">
+    <FeatureCardThree
+      title="Music Production"
+      description="We handle full-scale music production and career management for our artists."
+      animationType="slide-up"
+      gridVariant="three-columns-all-equal-width"
+      features={[
+        { title: "Recording", description: "Professional studio recording sessions", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg" },
+        { title: "Mixing", description: "High-quality audio engineering and mixing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365027886-q4uam6x8.jpg" },
+        { title: "Mastering", description: "Finalizing tracks for industry standards", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg" }
+      ]}
     />
   </div>
 
