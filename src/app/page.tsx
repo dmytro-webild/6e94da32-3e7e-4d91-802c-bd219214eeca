@@ -83,6 +83,8 @@ export default function LandingPage() {
       description="We handle full-scale music production and career management for our artists."
       animationType="slide-up"
       gridVariant="three-columns-all-equal-width"
+      textboxLayout="default"
+      useInvertedBackground={false}
       features={[
         { title: "Recording", description: "Professional studio recording sessions", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg" },
         { title: "Mixing", description: "High-quality audio engineering and mixing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365027886-q4uam6x8.jpg" },
