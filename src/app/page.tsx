@@ -44,6 +44,8 @@ export default function LandingPage() {
       description="A Record Label that works with all Genres of Music. Specializes in Hip Hop, Rap and R & B. We are a Family that has visions of Entertaining the World. We are making artist known and uplifting their careers in new ways."
       imagePosition="right"
       imageClassName="border-none"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg"
+      imageAlt="I Bang Records Team"
       buttons={[{ text: "Our Artists", href: "#features" }]
       }
       mediaAnimation="none"
