@@ -8,6 +8,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TextAbout from '@/components/sections/about/TextAbout';
 import ContactText from '@/components/sections/contact/ContactText';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function LandingPage() {
   return (
@@ -46,8 +47,7 @@ export default function LandingPage() {
       imageClassName="border-none"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg"
       imageAlt="I Bang Records Team"
-      buttons={[{ text: "Our Artists", href: "/features" }]
-      }
+      buttons={[{ text: "Our Artists", href: "#features" }]}
       mediaAnimation="none"
     />
   </div>
@@ -98,6 +98,22 @@ export default function LandingPage() {
             window.location.href = "mailto:marcelawilliams@ibangrecords.com?cc=mikey3ang@ibangrecords.com,eddiebang@ibangrecords.com";
           }
         }
+      ]}
+    />
+  </div>
+
+  <div id="footer" data-section="footer">
+    <FooterMedia
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg"
+      logoText="I Bang Records"
+      columns={[
+        { title: "Socials", items: [
+            { label: "Facebook", href: "https://facebook.com" },
+            { label: "Twitter", href: "https://twitter.com" },
+            { label: "Instagram", href: "https://instagram.com" },
+            { label: "TikTok", href: "https://tiktok.com" }
+        ] },
+        { title: "Support", items: [{ label: "Contact Support", href: "#support" }] }
       ]}
     />
   </div>
