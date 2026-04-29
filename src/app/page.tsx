@@ -72,7 +72,7 @@ export default function LandingPage() {
         { 
             title: "King Art & Go Baby", 
             description: "Rising stars with unique sounds. Experience unmatched lyrical flow and modern production techniques.", 
-            phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364749414-m8xbano6.jpg?_wi=1" }, 
+            phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777450204732-wrwzv36j.jpg" }, 
             phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777415801291-8l9b7k6k.jpg" } 
         },
         { 
