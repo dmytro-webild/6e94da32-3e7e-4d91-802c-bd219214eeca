@@ -12,8 +12,8 @@ import { Inter_Tight } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'I Bang Records | Underground Electronic Music',
-  description: 'The premier record label for cutting-edge sound and electronic music.',
+  title: "I Bang Records |The Bang Family",
+  description: "Specializes in Hip Hop, Rap and R & B. We are making artist known and uplifting their careers in new ways. Welcome to the Family where music meets destiny. ",
   openGraph: {
     "title": "I Bang Records",
     "description": "Electronic music label.",
