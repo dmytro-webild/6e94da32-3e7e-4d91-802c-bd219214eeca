@@ -63,8 +63,8 @@ export default function LandingPage() {
       membersAnimation="none"
       useInvertedBackground={false}
       members={[
-        { id: "vid1", name: "Music Highlights", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-        { id: "vid2", name: "Latest Studio Session", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
+        { id: "vid1", name: "Music Highlights", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=1" },
+        { id: "vid2", name: "Latest Studio Session", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=2" }
       ]}
       className="py-12"
     />
