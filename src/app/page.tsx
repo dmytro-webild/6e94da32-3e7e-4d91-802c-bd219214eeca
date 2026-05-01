@@ -11,7 +11,6 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import TeamCardTen from '@/components/sections/team/TeamCardTen';
 
 export default function LandingPage() {
   return (
@@ -52,23 +51,6 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777372881050-wjqwaf9z.jpg?_wi=1"
       imageAlt="I Bang Records Team"
       mediaAnimation="none"
-    />
-  </div>
-
-  <div id="streaming" data-section="streaming">
-    <TeamCardTen
-      title="Featured Content"
-      tag="Video Streaming"
-      memberVariant="default"
-      membersAnimation="none"
-      useInvertedBackground={false}
-      members={[
-        { id: "vid1", name: "Music Highlights", videoSrc: "https://www.youtube.com/embed/Lxd-uV28KHY?si=qOl807mRiYMS4MeP" },
-        { id: "vid2", name: "Latest Studio Session", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=2" },
-        { id: "vid3", name: "New Music Video", videoSrc: "https://www.youtube.com/embed/xqtmBDHui-0?si_01XZ4ciw3y0DIY9Z" },
-        { id: "vid4", name: "YouTube Video", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
-      ]}
-      className="py-12"
     />
   </div>
 
