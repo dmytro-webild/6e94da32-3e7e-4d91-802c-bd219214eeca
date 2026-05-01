@@ -65,7 +65,8 @@ export default function LandingPage() {
       members={[
         { id: "vid1", name: "Music Highlights", videoSrc: "https://www.youtube.com/embed/Lxd-uV28KHY?si=qOl807mRiYMS4MeP" },
         { id: "vid2", name: "Latest Studio Session", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=2" },
-        { id: "vid3", name: "New Music Video", videoSrc: "https://www.youtube.com/embed/xqtmBDHui-0?si_01XZ4ciw3y0DIY9Z" }
+        { id: "vid3", name: "New Music Video", videoSrc: "https://www.youtube.com/embed/xqtmBDHui-0?si_01XZ4ciw3y0DIY9Z" },
+        { id: "vid4", name: "YouTube Video", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
       ]}
       className="py-12"
     />
