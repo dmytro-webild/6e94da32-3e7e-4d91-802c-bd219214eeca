@@ -60,6 +60,8 @@ export default function LandingPage() {
       title="Featured Content"
       tag="Video Streaming"
       memberVariant="default"
+      membersAnimation="none"
+      useInvertedBackground={false}
       members={[
         { id: "vid1", name: "Music Highlights", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" },
         { id: "vid2", name: "Latest Studio Session", videoSrc: "https://www.youtube.com/embed/dQw4w9WgXcQ" }
