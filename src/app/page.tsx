@@ -76,7 +76,7 @@ export default function LandingPage() {
             phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777415801291-8l9b7k6k.jpg" } 
         },
         { 
-            title: "Royal Bizniz & Mikey 3ang", 
+            title: "Yungannk & Mikey 3ang", 
             description: "Core artists leading our vision. Masters of the craft and industry trendsetters.", 
             phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg?_wi=2" }, 
             phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg?_wi=1" } 
