@@ -78,7 +78,7 @@ export default function LandingPage() {
         { 
             title: "Yungannk & Mikey 3ang", 
             description: "Core artists leading our vision. Masters of the craft and industry trendsetters.", 
-            phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777364639834-5z0ydlkf.jpg?_wi=2" }, 
+            phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777761966716-vpgg5l3q.jpg" }, 
             phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777365007074-pw1w6q1b.jpg?_wi=1" } 
         },
       ]}
@@ -97,7 +97,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         { title: "Meet Paulskiiizbeats Producer with mad skills on Beat Making and Engineering                         Recording - Professional Quality", description: "Professional studio recording sessions for crystal clear vocals.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416050413-dklcfatd.jpg" },
-        { title: "Meet South Waco Shade The Producer, The Artist and Skilled Beat Maker                                             Mixing - Precision Audio", description: "High-quality audio engineering and mixing to balance your sound.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777522962844-no5tsllf.jpg" },
+        { title: " The Producer, The Artist and Skilled Beat Maker                                             Mixing - Precision Audio", description: "High-quality audio engineering and mixing to balance your sound.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777762213291-suc8bwzv.jpg" },
         { title: "Meet Devant3 Amor  Talented ArtistSkilled Producer, Writer, Engineer                                     Mastering - Industry Standards", description: "Finalizing tracks for industry standards and global distribution.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777416187294-q15x9tvh.jpg" }
       ]}
     />
