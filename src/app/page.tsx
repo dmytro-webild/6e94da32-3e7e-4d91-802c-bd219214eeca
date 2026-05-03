@@ -63,7 +63,9 @@ export default function LandingPage() {
       mediaItems={[
           { videoSrc: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", videoAriaLabel: "Featured release" }
       ]}
-      />
+      >
+        <div />
+      </TimelineHorizontalCardStack>
   </div>
 
   <div id="about" data-section="about">
