@@ -11,7 +11,6 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import TimelineHorizontalCardStack from '@/components/cardStack/layouts/timelines/TimelineHorizontalCardStack';
 
 export default function LandingPage() {
   return (
@@ -53,19 +52,6 @@ export default function LandingPage() {
       imageAlt="I Bang Records Team"
       mediaAnimation="none"
     />
-  </div>
-
-  <div id="video-streaming" data-section="video-streaming">
-      <TimelineHorizontalCardStack
-      title="Latest Media Releases"
-      description="Check out our latest music videos, sessions, and live stream highlights from the I Bang Records family."
-      textboxLayout="split"
-      mediaItems={[
-          { videoSrc: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", videoAriaLabel: "Featured release" }
-      ]}
-      >
-        <div />
-      </TimelineHorizontalCardStack>
   </div>
 
   <div id="about" data-section="about">
