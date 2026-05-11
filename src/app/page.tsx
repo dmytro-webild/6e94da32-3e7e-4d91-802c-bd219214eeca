@@ -68,7 +68,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={true}
-      buttons={[{ text: "Listen to Artists", href: "#" }]}
+      buttons={[{ text: "Listen to Artists", href: "https://www.youtube.com/watch?v=xqtmBDHui-0&list=RDxqtmBDHui-0&start_radio=1" }]}
       features={[
         { 
             title: "King Art & Go Baby", 
@@ -162,4 +162,8 @@ export default function LandingPage() {
       </ReactLenis>
     </ThemeProvider>
   );
+}" 
+    }
+  ],
+  "rawPlan": "I've updated the 'Listen to Artists' button in the artist showcase feature section to link directly to the YouTube playlist provided."
 }
