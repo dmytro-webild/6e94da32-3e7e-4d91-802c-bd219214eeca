@@ -57,7 +57,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       useInvertedBackground={false}
-      title="To Entertain the World while we expand our Artists Music Career while Creating a Family to last in the Music Industry. "
+      title="To Entertain the World while we expand our Artists Music Career while Creating a Family to last in the Music Industry."
       tag="Our Mission"
     />
   </div>
@@ -112,7 +112,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        { id: "1", title: "How do I submit my demo?", content: "You can reach out via our contact section or you can reach out to us on any of our social media platforms. " },
+        { id: "1", title: "How do I submit my demo?", content: "You can reach out via our contact section or you can reach out to us on any of our social media platforms." },
         { id: "2", title: "What genres do you represent?", content: "We represent all genres, including Hip Hop, R&B, Rock, Country, K-Pop, and more." },
         { id: "3", title: "Can I book an artist?", content: "Yes, please send your booking inquiry through the contact form or our support email." }
       ]}
@@ -123,7 +123,7 @@ export default function LandingPage() {
       <ContactSplit
       tag="Contact Us"
       title="Join the Family"
-      description="Get in touch for booking, inquiries, or demo submissions. "
+      description="Get in touch for booking, inquiries, or demo submissions."
       useInvertedBackground={true}
       background={{ variant: "gradient-bars" }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CxL59q8tfUcPSZDT56Hr5rHLLc/uploaded-1777521746523-30ay878l.jpg"
@@ -162,8 +162,4 @@ export default function LandingPage() {
       </ReactLenis>
     </ThemeProvider>
   );
-}" 
-    }
-  ],
-  "rawPlan": "I've updated the 'Listen to Artists' button in the artist showcase feature section to link directly to the YouTube playlist provided."
 }
