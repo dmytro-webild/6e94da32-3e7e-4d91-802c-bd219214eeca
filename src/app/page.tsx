@@ -68,6 +68,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={true}
+      buttons={[{ text: "Listen to Artists", href: "#" }]}
       features={[
         { 
             title: "King Art & Go Baby", 
